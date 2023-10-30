@@ -1,7 +1,11 @@
 // eslint-disable-next-line no-unused-vars
 import { Link, animateScroll as scroll } from "react-scroll";
 import logo from "../../images/logo.png";
+import { useState } from "react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+
 function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
   const routes = [
     { id: "home", name: "Home" },
     { id: "about", name: "About" },
@@ -10,20 +14,35 @@ function Navbar() {
   ];
 
   return (
-    <nav className="bg-[#fff5ed] text-[#8d2232] py-6 w-full flex items-center justify-between">
+    <nav className="bg-[#fff5ed] text-[#8d2232] lg:py-6 w-full flex items-baseline md:items-center justify-between">
       <div className="">
-        <div className=" flex items-center mx-12">
-          <div className="w-8 h-10">
+        <div className="flex items-baseline md:items-center py-6 mx-4 md:mx-12">
+          <div className="w-6 md:w-8 h-6 md:h-10">
             <img src={logo} alt="" />
           </div>
-          <p className=" pl-3 text-xl font-bold uppercase">Pawsomecare</p>
+          <p className="pl-3 text-lg md:text-xl font-semibold md:font-bold uppercase">
+            Pawsomecare
+          </p>
         </div>
       </div>
-      <ul className="flex mx-8 text-[#f59d4a]">
+      <div className="lg:hidden">
+        <button onClick={() => setIsOpen(!isOpen)}>
+          {isOpen === false ? (
+            <Bars3Icon className="h-6 w-6 mx-10" />
+          ) : (
+            <XMarkIcon className="h-6 w-6 mx-10" />
+          )}
+        </button>
+      </div>
+      <ul
+        className={`md:flex items-baseline justify-left mx-8 text-[#f59d4a] absolute md:static duration-500 w-full pl-1 py-5 ${
+          isOpen ? "top-12" : "-top-48"
+        }`}
+      >
         {routes.map((route) => (
           <li
             key={route.id}
-            className="font-semibold text-lg px-4 cursor-pointer hover:font-Pachano"
+            className="font-semibold lg:text-lg px-4 cursor-pointer hover:text-[#fdaf66]"
           >
             <Link
               activeClass="active"

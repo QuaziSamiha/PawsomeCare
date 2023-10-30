@@ -5,10 +5,10 @@ function Header() {
   };
   return (
     <>
-      <div className="h-screen mb-24 p-16 bg-[#fff5ed] ">
-        <div className="sm:flex justify-around ">
+      <div className="h-screen mb-24 p-8 lg:p-16 bg-[#fff5ed]">
+        <div className="sm:flex justify-around">
           <div className="my-16">
-            <h1 className="text-[#f59d4a] text-5xl font-extrabold my-4">
+            <h1 className="text-[#f59d4a] text-xl lg:text-5xl font-extrabold my-4">
               Furry Friends <span className="text-[#f5a887]">Paradise</span>
             </h1>
             <h1 className="text-3xl font-bold mb-4 text-[#f59d4a]">
