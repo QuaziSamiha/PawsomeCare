@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         Outfit: ["Outfit", "sans-serif"],
+        Pachano: ["Edu TAS Beginner", "cursive"],
       },
     },
   },

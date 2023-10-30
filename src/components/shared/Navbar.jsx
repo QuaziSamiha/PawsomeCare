@@ -6,23 +6,25 @@ function Navbar() {
     { id: "home", name: "Home" },
     { id: "about", name: "About" },
     { id: "testimonials", name: "Testimonials" },
-
     { id: "careTips", name: "Care Tips" },
   ];
 
   return (
     <nav className="bg-[#fff5ed] text-[#8d2232] py-6 w-full flex items-center justify-between">
       <div className="">
-        <div className=" flex font- items-center mx-12 ring-4 rounded ring-[#8d2232] ring-offset-4 ring-offset-slate-300 px-4">
+        <div className=" flex items-center mx-12">
           <div className="w-8 h-10">
             <img src={logo} alt="" />
           </div>
           <p className=" pl-3 text-xl font-bold uppercase">Pawsomecare</p>
         </div>
       </div>
-      <ul className="flex mx-8">
+      <ul className="flex mx-8 text-[#f59d4a]">
         {routes.map((route) => (
-          <li key={route.id} className="font-semibold text-lg px-4">
+          <li
+            key={route.id}
+            className="font-semibold text-lg px-4 cursor-pointer hover:font-Pachano"
+          >
             <Link
               activeClass="active"
               to={route.id}
