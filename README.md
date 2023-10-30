@@ -21,3 +21,5 @@ Run Command: npm create vite@latest paw-some-react -- --template react
    npx tailwindcss init -p
 2. Add the paths to all of the template files in tailwind.config.js file.
 3. Add the @tailwind directives for each of Tailwind’s layers to ./src/index.css file.
+
+<!-- Add Google Font -->
