@@ -1,5 +1,6 @@
+// eslint-disable-next-line no-unused-vars
 import { Link, animateScroll as scroll } from "react-scroll";
-
+import logo from "../../images/logo.png";
 function Navbar() {
   const routes = [
     { id: "home", name: "Home" },
@@ -10,10 +11,18 @@ function Navbar() {
   ];
 
   return (
-    <nav className="bg-[#FFFF00] py-2 fixed w-full">
-      <ul className="md:flex justify-end">
+    <nav className="bg-[#fff5ed] text-[#8d2232] py-6 w-full flex items-center justify-between">
+      <div className="">
+        <div className=" flex font- items-center mx-12 ring-4 rounded ring-[#8d2232] ring-offset-4 ring-offset-slate-300 px-4">
+          <div className="w-8 h-10">
+            <img src={logo} alt="" />
+          </div>
+          <p className=" pl-3 text-xl font-bold uppercase">Pawsomecare</p>
+        </div>
+      </div>
+      <ul className="flex mx-8">
         {routes.map((route) => (
-          <li key={route.id} className="text-white font-bold text-lg px-4">
+          <li key={route.id} className="font-semibold text-lg px-4">
             <Link
               activeClass="active"
               to={route.id}
