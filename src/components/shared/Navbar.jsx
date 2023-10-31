@@ -8,15 +8,20 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const routes = [
     { id: "home", name: "Home" },
-    { id: "about", name: "About" },
+    { id: "about", name: "About Us" },
     { id: "testimonials", name: "Testimonials" },
     { id: "careTips", name: "Care Tips" },
+    { id: "services", name: "Services" },
   ];
 
   return (
-    <nav className="bg-[#fff5ed] text-[#8d2232] lg:py-6 w-full flex items-baseline md:items-center justify-between">
+    <nav
+      className={` ${
+        isOpen ? "bg-[#8d2232] text-[#fff5ed]" : "bg-[#fff5ed] text-[#8d2232]"
+      }  lg:py-6 w-full flex items-baseline md:items-center justify-between`}
+    >
       <div className="">
-        <div className="flex items-baseline md:items-center py-6 mx-4 md:mx-12">
+        <div className="flex items-baseline md:items-center py-3 md:py-6 mx-4 md:mx-12">
           <div className="w-6 md:w-8 h-6 md:h-10">
             <img src={logo} alt="" />
           </div>
@@ -30,19 +35,21 @@ function Navbar() {
           {isOpen === false ? (
             <Bars3Icon className="h-6 w-6 mx-10" />
           ) : (
-            <XMarkIcon className="h-6 w-6 mx-10" />
+            <XMarkIcon className="h-6 w-6 mx-10 text-[#fff5ed]" />
           )}
         </button>
       </div>
       <ul
-        className={`md:flex items-baseline justify-left mx-8 text-[#f59d4a] absolute md:static duration-500 w-full pl-1 py-5 ${
-          isOpen ? "top-12" : "-top-48"
+        className={`lg:flex items-baseline justify-left md:justify-end mx-8 absolute md:static duration-500 w-full pl-1 ${
+          isOpen
+            ? "top-12 sm:top-28 bg-[#8d2232] text-[#fff5ed]"
+            : "-top-48 text-[#f59d4a] hidden"
         }`}
       >
         {routes.map((route) => (
           <li
             key={route.id}
-            className="font-semibold lg:text-lg px-4 cursor-pointer hover:text-[#fdaf66]"
+            className="lg:text-lg px-4 cursor-pointer hover:text-[#fdaf66]"
           >
             <Link
               activeClass="active"

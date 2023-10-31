@@ -5,23 +5,23 @@ function Header() {
   };
   return (
     <>
-      <div className="h-screen mb-24 p-8 lg:p-16 bg-[#fff5ed]">
+      <div className="h-screen mb-24 p-4 md:p-8 lg:p-16 bg-[#fff5ed]">
         <div className="sm:flex justify-around">
-          <div className="my-16">
-            <h1 className="text-[#f59d4a] text-xl lg:text-5xl font-extrabold my-4">
-              Furry Friends <span className="text-[#f5a887]">Paradise</span>
+          <div className="my-4 md:my-16">
+            <h1 className="text-[#f59d4a] text-xl lg:text-5xl font-bold md:font-extrabold my-1.5 md:my-4">
+              Furry Friends <span className="text-[#e0a287]">Paradise</span>
             </h1>
-            <h1 className="text-3xl font-bold mb-4 text-[#f59d4a]">
+            <h1 className="text-xl lg:text-3xl font-bold mb-1.5 md:mb-4 text-[#f59d4a]">
               Furry Friend&apos;s Home Away from Home
             </h1>
-            <p className="text-[#f5a887] mb-6">
+            <p className="text-[#f5a887] text-sm md:text-base mb-2 md:mb-6">
               Building Happy Memories with Your Furry Friends
             </p>
             <div className="relative w-2/3">
-              <button className="bg-[#ffcc9d] px-8 py-3 my-4 rounded text-blue-900 text-xl hover:font-Pachano font-semibold relative z-10">
+              <button className="bg-[#ffcc9d] px-4 md:px-8 py-2 md:py-3 my-2 md:my-4 rounded text-blue-900 text-base md:text-xl hover:font-Pachano font-semibold relative z-10">
                 Donate Now
               </button>
-              <span className="absolute top-1 -left-2">
+              <span className="absolute md:top-1 -left-2">
                 <span className="relative flex h-3 w-3">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-900 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-3 w-3 bg-blue-900"></span>
@@ -29,8 +29,13 @@ function Header() {
               </span>
             </div>
           </div>
-          <div style={borderStyle} className="bg-[#ffc8b0] md:w-96 md:h-96 ">
-            <img className="" src={Image} alt="" />
+          <div className="flex justify-center py-2 md:pt-0">
+            <div
+              style={borderStyle}
+              className="bg-[#ffc8b0] w-56 md:w-96 h-48 md:h-96 "
+            >
+              <img src={Image} alt="pets with owner" />
+            </div>
           </div>
         </div>
       </div>
