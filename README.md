@@ -23,3 +23,13 @@ Run Command: npm create vite@latest paw-some-react -- --template react
 3. Add the @tailwind directives for each of Tailwind’s layers to ./src/index.css file.
 
 <!-- Add Google Font -->
+
+<!-- testimonial section -->
+
+1. add autoplay slider, stop on over
+<!-- header section -->
+1. add a little tailwind css animation
+<!-- service section -->
+1. add framer motion animation in this section
+<!-- footer section -->
+1. add tailwind css animation

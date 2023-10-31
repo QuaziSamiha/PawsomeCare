@@ -7,6 +7,9 @@ export default {
         Outfit: ["Outfit", "sans-serif"],
         Pachano: ["Edu TAS Beginner", "cursive"],
       },
+      animation: {
+        "fade-in": "fadeIn 2s ease-in-out", // Define your custom animation class
+      },
     },
   },
   plugins: [],

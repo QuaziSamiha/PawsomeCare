@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "image": "/src/images/pet-shop.jpg",
+    "title": "Online Pet Shop",
+    "description": "Browse our wide selection of high-quality pet supplies, from food and toys to grooming products, all from the comfort of your home."
+  },
+  {
+    "id": 2,
+    "image": "../../images/pet-vet.jpg",
+    "title": "Veterinary Care",
+    "description": "Our experienced veterinarians provide top-notch healthcare services, ensuring the well-being of your beloved pets."
+  },
+  {
+    "id": 3,
+    "image": "day-care-image.jpg",
+    "title": "Pet Day Care & Boarding",
+    "description": "Leave your pets in our care when you're away. We offer a safe and comfortable environment, with day care and boarding options."
+  },
+  {
+    "id": 4,
+    "image": "stray-animal-rescue-image.jpg",
+    "title": "Stray Animal Rescue",
+    "description": "We are committed to rescuing and providing medical attention to stray animals, offering them a chance for a better life."
+  },
+  {
+    "id": 5,
+    "image": "pet-training-image.jpg",
+    "title": "Pet Training Programs",
+    "description": "Help your pets reach their full potential with our specialized training programs, from obedience to agility."
+  }
+]

@@ -18,7 +18,7 @@ function Header() {
               Building Happy Memories with Your Furry Friends
             </p>
             <div className="relative w-2/3">
-              <button className="bg-[#ffcc9d] px-4 md:px-8 py-2 md:py-3 my-2 md:my-4 rounded text-blue-900 text-base md:text-xl hover:font-Pachano font-semibold relative z-10">
+              <button className="bg-[#ffcc9d] px-4 md:px-8 py-2 md:py-3 my-2 md:my-4 rounded text-blue-900 text-base md:text-xl hover:animate-pulse font-semibold relative z-10">
                 Donate Now
               </button>
               <span className="absolute md:top-1 -left-2">
