@@ -4,7 +4,7 @@ function Footer() {
       <div>
         {/* <h1>this is footer</h1> */}
         <div className="bg-[#fff5ed] h-16 ">
-          <h1 className="text-center text-blue-900 text-sm">
+          <h1 className="text-center text-blue-900 text-sm py-3">
             copy right by samiha 2023
           </h1>
           {/* <div className="md:grid md:grid-cols-2 bg-[#fff5ed] h-96 lg:grid-cols-4 gap-5"> */}
