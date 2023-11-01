@@ -1,16 +1,17 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import MemberCard from "./MemberCard";
+import team from "../../../../public/teamMembers.json";
 function TheTeam() {
-  const url = "../../../../public/teamMembers.json";
-  const [team, setTeam] = useState([]);
-  useEffect(() => {
-    fetch(url)
-      .then((res) => res.json())
-      .then((data) => {
-        // console.log(data);
-        setTeam(data);
-      });
-  }, []);
+  // const url = "../../../../public/teamMembers.json";
+  // const [team, setTeam] = useState([]);
+  // useEffect(() => {
+  //   fetch(url)
+  //     .then((res) => res.json())
+  //     .then((data) => {
+  //       // console.log(data);
+  //       setTeam(data);
+  //     });
+  // }, []);
   // console.log(team);
   return (
     <>

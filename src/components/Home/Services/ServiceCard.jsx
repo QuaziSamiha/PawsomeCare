@@ -1,5 +1,5 @@
 function ServiceCard({ service }) {
-  console.log(service.image);
+  // console.log(service.image);
   return (
     <>
       <div className="flex justify-center items-center">
