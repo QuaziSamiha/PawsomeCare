@@ -1,6 +1,7 @@
 import Footer from "../shared/Footer/Footer";
 import About from "./About";
 import CareTips from "./CareTips";
+import Gallery from "./Gallery";
 import Header from "./Header";
 import Partners from "./Partners";
 import Services from "./Services/Services";
@@ -20,6 +21,7 @@ function Home() {
         <Partners />
         <CareTips />
         <Testimonials />
+        <Gallery />
         <Footer />
       </div>
     </>

@@ -11,7 +11,7 @@ function TheTeam() {
         setTeam(data);
       });
   }, []);
-  console.log(team);
+  // console.log(team);
   return (
     <>
       <div
