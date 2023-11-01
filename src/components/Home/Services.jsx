@@ -19,22 +19,12 @@ function Services() {
 
   var settings = {
     dots: true,
-    // infinite: true,
-    // slidesToShow: 3,
-    // slidesToScroll: 1,
-    // autoplay: true,
-    // autoplaySpeed: 1500,
-    // pauseOnHover: true,
-    className: "center",
     infinite: true,
-    centerPadding: "60px",
     slidesToShow: 3,
-    swipeToSlide: true,
-    afterChange: function (index) {
-      console.log(
-        `Slider Changed to: ${index + 1}, background: #222; color: #bada55`
-      );
-    },
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    pauseOnHover: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -64,7 +54,10 @@ function Services() {
   };
   return (
     <>
-      <div className="text-center border-y border-[#fff5ed] my-12 py-12">
+      <div
+        id="services"
+        className="text-center border-y border-[#fff5ed] my-12 py-12"
+      >
         <h1 className="my-2 text-blue-900 text-xl md:text-3xl font-semibold md:font-bold">
           Services We Offer
         </h1>

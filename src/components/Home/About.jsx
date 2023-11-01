@@ -1,6 +1,13 @@
-import { motion } from "framer-motion";
+import { motion, useScroll, useSpring } from "framer-motion";
 
 function About() {
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001,
+  });
+
   return (
     <>
       <div
@@ -14,6 +21,7 @@ function About() {
           The Heart Behind Our Pet Care
         </h2>
         <div className="md:grid grid-cols-2 gap-5">
+          <motion.div className="progress-bar" style={{ scaleX }} />
           <div className="p-3 text-justify text-base text-blue-500 font-Pachano">
             <p>
               Once upon a time in a cozy little corner of the city, a small

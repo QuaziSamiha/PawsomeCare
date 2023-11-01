@@ -27,9 +27,17 @@ Run Command: npm create vite@latest paw-some-react -- --template react
 <!-- testimonial section -->
 
 1. add autoplay slider, stop on over
+2. testimonial card: date, review, name, image
 <!-- header section -->
-1. add a little tailwind css animation
+3. add a little tailwind css animation
 <!-- service section -->
-1. add framer motion animation in this section
+4. add framer motion animation in this section
 <!-- footer section -->
-1. add tailwind css animation
+5. add tailwind css animation
+
+<!-- colors -->
+
+#8d2232 -- navbar dark color
+#fff5ed -- header bg
+#f59d4a -- donate now button komla color
+#e0a287 -- fancy radius pink

@@ -1,0 +1,163 @@
+[
+  {
+    "id": 1,
+    "date": "20 May, 2022",
+    "animalType": "Dog",
+    "serviceType": "Veterinary Care",
+    "customerReview": "Our dog had a health scare, and the care he received at the veterinary clinic was exceptional. Thanks to the expertise and compassion of the staff, he's back to his old self.",
+    "customerName": "Sarah"
+  },
+  {
+    "id": 2,
+    "date": "15 June, 2022",
+    "animalType": "Cat",
+    "serviceType": "Online Pet Shop",
+    "customerReview": "I found everything I needed for my cat in the online pet shop. The quality of the products and the convenience of shopping from home are unbeatable.",
+    "customerName": "David"
+  },
+  {
+    "id": 3,
+    "date": "5 July, 2022",
+    "animalType": "Rabbit",
+    "serviceType": "Pet Day Care & Boarding",
+    "customerReview": "Leaving our rabbit in your care when we went on vacation was a great decision. He received all the love and attention he needed. We'll definitely be back!",
+    "customerName": "Emily"
+  },
+  {
+    "id": 4,
+    "date": "10 August, 2022",
+    "animalType": "Bird",
+    "serviceType": "Pet Training Programs",
+    "customerReview": "Our bird's behavior was a challenge until we joined the training program. Now, he's a well-behaved and happy member of our family.",
+    "customerName": "Michael"
+  },
+  {
+    "id": 5,
+    "date": "1 September, 2022",
+    "animalType": "Dog",
+    "serviceType": "Stray Animal Rescue",
+    "customerReview": "We adopted our dog from your rescue center, and he's brought so much joy into our lives. Your commitment to stray animals is inspiring.",
+    "customerName": "Lisa"
+  },
+  {
+    "id": 6,
+    "date": "12 October, 2022",
+    "animalType": "Cat",
+    "serviceType": "Online Pet Shop",
+    "customerReview": "As a cat owner, I appreciate the wide variety of cat products available in your online store. It makes my life easier and my cat happier.",
+    "customerName": "Mark"
+  },
+  {
+    "id": 7,
+    "date": "25 November, 2022",
+    "animalType": "Dog",
+    "serviceType": "Pet Training Programs",
+    "customerReview": "The pet training program transformed our hyperactive dog into a well-behaved companion. The trainers are skilled and patient.",
+    "customerName": "Jennifer"
+  },
+  {
+    "id": 8,
+    "date": "3 December, 2022",
+    "animalType": "Hamster",
+    "serviceType": "Pet Day Care & Boarding",
+    "customerReview": "Leaving our hamster in your care while we were on holiday allowed us to relax, knowing he was safe and well looked after.",
+    "customerName": "Thomas"
+  },
+  {
+    "id": 9,
+    "date": "18 January, 2023",
+    "animalType": "Dog",
+    "serviceType": "Veterinary Care",
+    "customerReview": "Our dog received excellent care during a recent illness. The veterinarians were attentive, and the facilities were top-notch.",
+    "customerName": "Jessica"
+  },
+  {
+    "id": 10,
+    "date": "2 February, 2023",
+    "animalType": "Parrot",
+    "serviceType": "Pet Training Programs",
+    "customerReview": "The pet training program not only taught our parrot to speak but also brought out his playful and social side.",
+    "customerName": "Daniel"
+  },
+  {
+    "id": 11,
+    "date": "11 March, 2023",
+    "animalType": "Cat",
+    "serviceType": "Stray Animal Rescue",
+    "customerReview": "We adopted a cat from your rescue. She's the perfect addition to our family. Thank you for giving her a second chance.",
+    "customerName": "Maria"
+  },
+  {
+    "id": 12,
+    "date": "22 April, 2023",
+    "animalType": "Dog",
+    "serviceType": "Pet Training Programs",
+    "customerReview": "Our once unruly dog is now a model of obedience thanks to the pet training program. We couldn't be happier.",
+    "customerName": "John"
+  },
+  {
+    "id": 13,
+    "date": "15 May, 2023",
+    "animalType": "Guinea Pig",
+    "serviceType": "Online Pet Shop",
+
+    "customerReview": "The online pet shop has made caring for our guinea pig a breeze. It's our go-to source for all his needs.",
+    "customerName": "Rachel"
+  },
+  {
+    "id": 14,
+    "date": "9 June, 2023",
+    "animalType": "Dog",
+    "serviceType": "Pet Day Care & Boarding",
+    "customerReview": "The pet day care service allowed us to enjoy a stress-free day out while our dog had a blast with his furry friends.",
+    "customerName": "Kevin"
+  },
+  {
+    "id": 15,
+    "date": "7 July, 2023",
+    "animalType": "Cat",
+    "serviceType": "Stray Animal Rescue",
+    "customerReview": "We adopted a cat from your rescue. She's a sweetheart, and we're grateful for your dedication to homeless animals.",
+    "customerName": "Laura"
+  },
+  {
+    "id": 16,
+    "date": "18 August, 2023",
+    "animalType": "Dog",
+    "serviceType": "Veterinary Care",
+    "customerReview": "Our dog had a health scare, and the care he received at the veterinary clinic was exceptional. Thanks to the expertise and compassion of the staff, he's back to his old self.",
+    "customerName": "Sarah"
+  },
+  {
+    "id": 17,
+    "date": "15 June, 2022",
+    "animalType": "Cat",
+    "serviceType": "Online Pet Shop",
+    "customerReview": "I found everything I needed for my cat in the online pet shop. The quality of the products and the convenience of shopping from home are unbeatable.",
+    "customerName": "David"
+  },
+  {
+    "id": 18,
+    "date": "5 July, 2022",
+    "animalType": "Rabbit",
+    "serviceType": "Pet Day Care & Boarding",
+    "customerReview": "Leaving our rabbit in your care when we went on vacation was a great decision. He received all the love and attention he needed. We'll definitely be back!",
+    "customerName": "Emily"
+  },
+  {
+    "id": 19,
+    "date": "10 August, 2022",
+    "animalType": "Bird",
+    "serviceType": "Pet Training Programs",
+    "customerReview": "Our bird's behavior was a challenge until we joined the training program. Now, he's a well-behaved and happy member of our family.",
+    "customerName": "Michael"
+  },
+  {
+    "id": 20,
+    "date": "1 September, 2022",
+    "animalType": "Dog",
+    "serviceType": "Stray Animal Rescue",
+    "customerReview": "We adopted our dog from your rescue center, and he's brought so much joy into our lives. Your commitment to stray animals is inspiring.",
+    "customerName": "Lisa"
+  }
+]

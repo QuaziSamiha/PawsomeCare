@@ -4,7 +4,7 @@ import CareTips from "./CareTips";
 import Header from "./Header";
 import Partners from "./Partners";
 import Services from "./Services";
-import Testimonials from "./Testimonials";
+import Testimonials from "./Testimonials/Testimonials";
 import TheTeam from "./TheTeam";
 
 function Home() {
