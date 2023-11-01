@@ -1,17 +1,17 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import ServiceCard from "./ServiceCard";
-
+import services from "../../../../public/services.json";
 function Services() {
-  const [services, setServices] = useState([]);
+  // const [services, setServices] = useState([]);
 
-  useEffect(() => {
-    fetch("../../../../public/services.json")
-      .then((res) => res.json())
-      .then((data) => {
-        // console.log(data);
-        setServices(data);
-      });
-  }, []);
+  // useEffect(() => {
+  //   fetch("../../../../public/services.json")
+  //     .then((res) => res.json())
+  //     .then((data) => {
+  //       // console.log(data);
+  //       setServices(data);
+  //     });
+  // }, []);
   // console.log(services.title);
 
   return (
