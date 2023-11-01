@@ -1,21 +1,21 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import TestimonialCard from "./TestimonialCard";
 import TestimonialForm from "./TestimonialForm";
-
+import testimonials from "../../../../public/testmonials.json";
 const Testimonials = () => {
-  const [testimonials, setTestimonials] = useState([]);
-  const url = "../../../../public/testmonials.json";
-  useEffect(() => {
-    fetch(url)
-      .then((res) => res.json())
-      .then((data) => {
-        // console.log(data);
-        setTestimonials(data);
-      });
-  }, []);
+  // const [testimonials, setTestimonials] = useState([]);
+  // const url = "../../../../public/testmonials.json";
+  // useEffect(() => {
+  //   fetch(url)
+  //     .then((res) => res.json())
+  //     .then((data) => {
+  //       // console.log(data);
+  //       setTestimonials(data);
+  //     });
+  // }, []);
   // console.log(testimonials);
   var settings = {
     // dots: true,

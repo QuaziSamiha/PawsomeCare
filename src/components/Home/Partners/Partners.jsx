@@ -1,4 +1,16 @@
+import { useEffect, useState } from "react";
+import PartnerCard from "./PartnerCard";
+
 function Partners() {
+  const [partners, setPartners] = useState([]);
+  useEffect(() => {
+    fetch("../../../../public/partners.json")
+      .then((res) => res.json())
+      .then((data) => {
+        // console.log(data);
+        setPartners(data);
+      });
+  }, []);
   return (
     <>
       <div
@@ -9,6 +21,11 @@ function Partners() {
           Out Partners and Affliation
         </h1>
         <h3 className="text-[#f5a887] mb-4 md:mb-8"></h3>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-5">
+          {partners.map((partner) => (
+            <PartnerCard key={partner.id} partner={partner} />
+          ))}
+        </div>
       </div>
     </>
   );
