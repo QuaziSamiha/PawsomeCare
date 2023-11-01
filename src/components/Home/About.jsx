@@ -1,3 +1,4 @@
+import aboutImage from "../../images/about.jpg";
 function About() {
   return (
     <>
@@ -12,42 +13,40 @@ function About() {
           The Heart Behind Our Pet Care
         </h2>
         <div className="md:grid grid-cols-2 gap-5">
-          <div className="p-3 text-justify text-base text-blue-500 font-Pachano">
-            <p>
-              Once upon a time in a cozy little corner of the city, a small
-              group of animal lovers came together with a shared dream: to
-              create a haven for pets and their owners. With a handful of furry
-              friends and a world of determination, our journey began. We
-              started as a modest pet shop, offering high-quality supplies and
-              essentials for our beloved companions. But we knew our mission
-              extended beyond the shelves of our store. Our commitment to pets
-              was unwavering. As the years passed, our love for animals led us
-              to expand our horizons. We delved into pet training, eager to help
-              pets and their owners communicate better, forming deeper bonds. We
-              provided a temporary refuge for pets when their humans needed a
-              hand, offering daycare and boarding services.
-            </p>
-            <p>
-              {" "}
-              Our team of skilled trainers and caregivers became like family to
-              every pet that crossed our threshold. Yet, we couldn&apos;t ignore
-              the strays and animals in need. We embarked on rescue missions,
-              tending to the injured, giving shelter to the homeless, and
-              nurturing them back to health. We believed that every life was
-              worth saving. Today, we&apos;re more than just a pet care
-              business. We&apos;re a community bound by compassion and driven by
-              the well-being of our four-legged friends. Our journey is a
-              testament to our unwavering love for animals, and we&apos;re
-              honored to have you alongside us. Join us in making a difference,
-              one paw at a time. Whether it&apos;s finding the perfect toy,
-              enhancing your pet&apos;s training, or rescuing a furry soul in
-              need, we&apos;re here to share our love and knowledge with you.
-              Together, we&apos;ll continue to write this beautiful story of
-              care, compassion, and companionship. Welcome to our world, where
-              every pet is family, and love knows no bounds.
-            </p>
+          <div className="flex justify-center items-center">
+            <div
+              data-aos-duration="3000" // Animation duration in milliseconds
+              data-aos="flip-up"
+              className="py-3 px-8 w-96 text-justify text-base text-blue-500 font-Pachano"
+            >
+              <p>
+                In a small corner of our city, our story began with a group of
+                animal enthusiasts united by a common goal: to create a haven
+                for pets and their devoted owners. Starting as a modest pet
+                shop, we soon realized our mission extended far beyond the
+                aisles. Our unwavering commitment led us to expand into pet
+                training, daycare, and boarding services, nurturing deep bonds
+                between pets and their humans.
+              </p>
+              <p>
+                Our love for animals ignited a passion for rescue, saving and
+                rehabilitating those in need. Today, we&apos;re more than a pet
+                care business; we&apos;re a compassionate community dedicated to
+                the well-being of our four-legged friends. Join us in this
+                beautiful story of care, compassion, and companionship, where
+                every pet is family, and love knows no bounds.
+              </p>
+            </div>
           </div>
-          <div className="bg-red-500"></div>
+          <div className="flex justify-center items-center">
+            <div
+              data-aos-duration="3000" // Animation duration in milliseconds
+              data-aos="flip-up"
+              className="shadow-lg"
+            >
+              <img className="w-96 h-96 rounded " src={aboutImage} alt="" />
+            </div>
+          </div>
         </div>
       </div>
     </>

@@ -3,7 +3,11 @@ function ServiceCard({ service }) {
   return (
     <>
       <div className="flex justify-center items-center">
-        <div className="my-8 mx-4 w-80 shadow-lg shadow-[#fff5ed]-500/50 bg-[#fff5ed] border border-[#ffc8b0] rounded-md">
+        <div
+          data-aos="fade-up" // Specify the AOS animation here
+          data-aos-duration="3000" // Animation duration in milliseconds
+          className="my-8 mx-4 w-80 shadow-lg shadow-[#fff5ed]-500/50 bg-[#fff5ed] border border-[#ffc8b0] rounded-md"
+        >
           <div className=" p-2">
             <h1 className="text-blue-900 text-lg font-semibold animate-pulse">
               {service.title}
