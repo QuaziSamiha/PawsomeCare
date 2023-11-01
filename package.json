@@ -12,6 +12,7 @@
   "dependencies": {
     "@fontsource/roboto": "^5.0.8",
     "@heroicons/react": "^2.0.18",
+    "aos": "^2.3.4",
     "framer-motion": "^10.16.4",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",

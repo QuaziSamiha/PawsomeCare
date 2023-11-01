@@ -26,7 +26,11 @@ function Services() {
         <h3 className="text-[#f5a887] mb-4 md:mb-8">
           Explore a world of care and pamperingh
         </h3>
-        <div className="sm:grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
+        <div
+          data-aos="fade-up" // Specify the AOS animation here
+          data-aos-duration="4000" // Animation duration in milliseconds
+          className="sm:grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3"
+        >
           {services.map((service) => (
             <>
               <ServiceCard key={service.id} service={service} />
