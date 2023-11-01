@@ -1,16 +1,39 @@
-import { useEffect, useState } from "react";
 import PartnerCard from "./PartnerCard";
 
 function Partners() {
-  const [partners, setPartners] = useState([]);
-  useEffect(() => {
-    fetch("../../../../public/partners.json")
-      .then((res) => res.json())
-      .then((data) => {
-        // console.log(data);
-        setPartners(data);
-      });
-  }, []);
+  const partners = [
+    {
+      id: 1,
+      partnerName: "Petco",
+      logoImage: "petco-logo.png",
+    },
+    {
+      id: 2,
+      partnerName: "Hill's Science Diet",
+      logoImage: "hills-logo.png",
+    },
+    {
+      id: 3,
+      partnerName: "Royal Canin",
+      logoImage: "royal-canin-logo.png",
+    },
+    {
+      id: 4,
+      partnerName: "Bayer Animal Health",
+      logoImage: "bayer-logo.png",
+    },
+    {
+      id: 5,
+      partnerName: "Purina",
+      logoImage: "purina-logo.png",
+    },
+    {
+      id: 6,
+      partnerName: "Pedigree",
+      logoImage: "pedigree-logo.png",
+    },
+  ];
+
   return (
     <>
       <div
