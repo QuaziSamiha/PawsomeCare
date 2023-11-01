@@ -14,7 +14,7 @@ function Navbar() {
     { id: "partners", name: "Partners" },
     { id: "testimonials", name: "Testimonials" },
     { id: "gallery", name: "Gallery" },
-    { id: "careTips", name: "Care Tips" },
+    // { id: "careTips", name: "Care Tips" },
   ];
 
   return (
