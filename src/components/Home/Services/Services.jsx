@@ -1,6 +1,11 @@
 // import { useEffect, useState } from "react";
 import ServiceCard from "./ServiceCard";
 import services from "../../../../public/services.json";
+// import s1 from "../../../images/pet-shop.jpg";
+// import s2 from "../../../images/day-care.jpg";
+// import s3 from "../../../images/pet-vet.jpg";
+// import s4 from "../../../images/training-service.jpg";
+// import s5 from "../../../images/stray-pet.jpg";
 function Services() {
   // const [services, setServices] = useState([]);
 
@@ -14,6 +19,7 @@ function Services() {
   // }, []);
   // console.log(services.title);
 
+  // const images = [s1, s3, s2, s5, s4];
   return (
     <>
       <div

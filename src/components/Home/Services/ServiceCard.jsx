@@ -1,11 +1,6 @@
-import s1 from "../../../images/pet-shop.jpg";
-import s2 from "../../../images/day-care.jpg";
-import s3 from "../../../images/pet-vet.jpg";
-import s4 from "../../../images/training-service.jpg";
-import s5 from "../../../images/stray-pet.jpg";
 function ServiceCard({ service }) {
   // console.log(service.image);
-  const images = [s1, s3, s2, s5, s4];
+
   return (
     <>
       <div className="flex justify-center items-center">
@@ -19,14 +14,11 @@ function ServiceCard({ service }) {
               {service.title}
             </h1>
             <div className="flex items-center justify-center my-2">
-              {images.map((img, index) => (
-                <img
-                  key={index}
-                  className="w-72 h-72 rounded-md"
-                  src={img}
-                  alt=""
-                />
-              ))}
+              <img
+                className="w-72 h-72 rounded-md"
+                src={service.image}
+                alt=""
+              />
             </div>
             <p className="text-justify text-base text-blue-800 mx-3 ">
               {service.description}
