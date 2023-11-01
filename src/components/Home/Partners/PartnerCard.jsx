@@ -9,7 +9,12 @@ function PartnerCard({ partner }) {
             </h1>
           </div>
           <div className="flex justify-center">
-            <img src={partner.logoImage} alt="" />
+            {/* <img src={partner.logoImage} alt="" /> */}
+            <div className="rounded-full w-14 h-14 bg-red-400">
+              <div className="flex justify-center">
+                <div className="rounded-full w-8 h-8 bg-blue-900"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
