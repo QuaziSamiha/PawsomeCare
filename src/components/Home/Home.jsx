@@ -3,7 +3,7 @@ import About from "./About";
 import CareTips from "./CareTips";
 import Gallery from "./Gallery";
 import Header from "./Header";
-import Partners from "./Partners";
+import Partners from "./Partners/Partners";
 import Services from "./Services/Services";
 
 import Testimonials from "./Testimonials/Testimonials";

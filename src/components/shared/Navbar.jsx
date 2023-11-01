@@ -11,7 +11,9 @@ function Navbar() {
     { id: "services", name: "Services" },
     { id: "about", name: "About Us" },
     { id: "team", name: "Members" },
+    { id: "partners", name: "Partners" },
     { id: "testimonials", name: "Testimonials" },
+    { id: "gallery", name: "Gallery" },
     { id: "careTips", name: "Care Tips" },
   ];
 
@@ -50,7 +52,7 @@ function Navbar() {
         {routes.map((route) => (
           <li
             key={route.id}
-            className="lg:text-lg px-4 cursor-pointer hover:text-[#fdaf66]"
+            className="lg:text-lg px-2 cursor-pointer hover:text-[#fdaf66]"
           >
             <Link
               activeClass="active"

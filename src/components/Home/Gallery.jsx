@@ -49,7 +49,10 @@ function Gallery() {
   //   console.log(images);
   return (
     <>
-      <div className="text-center border-y border-[#fff5ed] my-10 py-12">
+      <div
+        id="gallery"
+        className="text-center border-y border-[#fff5ed] my-10 py-12"
+      >
         <div>
           <h1 className="mb-4 text-blue-900 text-xl md:text-3xl font-semibold md:font-bold">
             Pet Gallery
@@ -71,7 +74,7 @@ function Gallery() {
           <Slider {...settings}>
             {images.map((image, index) => (
               <>
-                <div>
+                <div className="flex justify-center">
                   <img
                     className="w-72 h-48 rounded"
                     key={index}
