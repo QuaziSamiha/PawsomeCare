@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "image": "../src/images/members/male1.jpg",
+    "service": "Pet Training Programs",
+    "age": 30,
+    "contactNumber": "+1 (123) 456-7890",
+    "email": "john.doe@example.com",
+    "address": "123 Main Street, Anytown, USA"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "image": "../src/images/members/male2.jpg",
+    "service": "Veterinary Care",
+    "age": 28,
+    "contactNumber": "+1 (987) 654-3210",
+    "email": "jane.smith@example.com",
+    "address": "456 Elm Avenue, Anycity, USA"
+  },
+  {
+    "id": 3,
+    "name": "Michael Johnson",
+    "image": "../src/images/members/male3.jpg",
+    "service": "Online Pet Shop",
+    "age": 32,
+    "contactNumber": "+1 (555) 123-4567",
+    "email": "michael.johnson@example.com",
+    "address": "789 Oak Lane, Anyvillage, USA"
+  },
+  {
+    "id": 4,
+    "name": "Emily Davis",
+    "image": "../src/images/members/female1.jpg",
+    "service": "Pet Day Care & Boarding",
+    "age": 25,
+    "contactNumber": "+1 (333) 987-6543",
+    "email": "emily.davis@example.com",
+    "address": "567 Pine Road, Anysuburb, USA"
+  },
+  {
+    "id": 5,
+    "name": "William Wilson",
+    "image": "../src/images/members/male4.jpg",
+    "service": "Stray Animal Rescue",
+    "age": 35,
+    "contactNumber": "+1 (111) 222-3333",
+    "email": "william.wilson@example.com",
+    "address": "987 Cedar Street, Anytownship, USA"
+  },
+  {
+    "id": 6,
+    "name": "Olivia Brown",
+    "image": "../src/images/members/female2.jpg",
+    "service": "Pet Training Programs",
+    "age": 27,
+    "contactNumber": "+1 (777) 888-9999",
+    "email": "olivia.brown@example.com",
+    "address": "654 Birch Avenue, Anycountryside, USA"
+  },
+  {
+    "id": 7,
+    "name": "James Taylor",
+    "image": "../src/images/members/male5.jpg",
+    "service": "Veterinary Care",
+    "age": 29,
+    "contactNumber": "+1 (444) 555-6666",
+    "email": "james.taylor@example.com",
+    "address": "321 Maple Road, Anyhamlet, USA"
+  },
+  {
+    "id": 8,
+    "name": "Sophia Miller",
+    "image": "../src/images/members/female3.jpg",
+    "service": "Online Pet Shop",
+    "age": 26,
+    "contactNumber": "+1 (666) 777-8888",
+    "email": "sophia.miller@example.com",
+    "address": "876 Fir Lane, Anyplace, USA"
+  }
+]

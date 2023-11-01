@@ -33,9 +33,11 @@ Run Command: npm create vite@latest paw-some-react -- --template react
 
 3. add a little tailwind css animation
 <!-- service section -->
-4. add framer motion animation in this section
+4. added AOS animation in this section
+<!-- About section -->
+5. animation added to about section
 <!-- footer section -->
-5. add tailwind css animation
+6. add tailwind css animation
 
 <!-- colors -->
 

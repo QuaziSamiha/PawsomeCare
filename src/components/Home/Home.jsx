@@ -6,7 +6,7 @@ import Partners from "./Partners";
 import Services from "./Services/Services";
 
 import Testimonials from "./Testimonials/Testimonials";
-import TheTeam from "./TheTeam";
+import TheTeam from "./TheTeam/TheTeam";
 
 function Home() {
   return (
@@ -15,8 +15,8 @@ function Home() {
         {/* <h1>this is home</h1> */}
         <Header />
         <Services />
-        <About />
         <TheTeam />
+        <About />
         <Partners />
         <CareTips />
         <Testimonials />

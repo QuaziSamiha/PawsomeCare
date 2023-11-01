@@ -8,10 +8,11 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const routes = [
     { id: "home", name: "Home" },
+    { id: "services", name: "Services" },
     { id: "about", name: "About Us" },
+    { id: "team", name: "Members" },
     { id: "testimonials", name: "Testimonials" },
     { id: "careTips", name: "Care Tips" },
-    { id: "services", name: "Services" },
   ];
 
   return (
