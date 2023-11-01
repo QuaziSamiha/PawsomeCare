@@ -22,13 +22,15 @@ Run Command: npm create vite@latest paw-some-react -- --template react
 2. Add the paths to all of the template files in tailwind.config.js file.
 3. Add the @tailwind directives for each of Tailwind’s layers to ./src/index.css file.
 
-<!-- Add Google Font -->
+<!-- Added Google Font -->
 
 <!-- testimonial section -->
 
-1. add autoplay slider, stop on over
-2. testimonial card: date, review, name, image
+1. added autoplay slider, stop on hover
+2. testimonial form with tailwind css animation
+
 <!-- header section -->
+
 3. add a little tailwind css animation
 <!-- service section -->
 4. add framer motion animation in this section
